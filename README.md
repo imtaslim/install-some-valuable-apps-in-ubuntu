@@ -1,4 +1,4 @@
-# install-some-valuable-apps-in-ubuntu
+# Some-valuable-Command-for-ubuntu
 Install Skype, VS-Code, postbird, tweak, chrome, brave, and many more
 
 # Install Skype
