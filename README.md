@@ -103,3 +103,13 @@ then clear cache
 ~~~
 sudo journalctl --vacuum-time=2days
 ~~~
+
+# Convert from docx file to pdf file
+~~~
+lowriter --convert-to pdf CV.docx
+~~~
+
+# Corvert from pdf file to png photo
+~~~
+pdftoppm CV.pdf CV -png
+~~~
