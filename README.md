@@ -6,6 +6,23 @@ Install Skype, VS-Code, postbird, tweak, chrome, brave, and many more
 sudo snap install skype
 ~~~
 
+# If snap is showing error then restart it
+~~~
+sudo systemctl start snapd
+~~~
+then
+~~~
+sudo systemctl enable snapd
+~~~
+if it doesn't solve the error then uninstall snap
+~~~
+sudo apt autoremove --purge snapd
+~~~
+then install again
+~~~
+sudo apt install snapd
+~~~
+
 # Install VS-Code
 ~~~
 sudo snap install code --classic
@@ -42,6 +59,11 @@ sudo apt install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1
 ~~~
 
 # Install chrome
+first check wget
+~~~
+wget --version
+~~~
+then
 ~~~
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ~~~
@@ -66,4 +88,18 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 Now update the system and install Brave:
 ~~~
 sudo apt update && sudo apt install brave-browser
+~~~
+
+# For clear Cache
+first check disk usage
+~~~
+journalctl --disk-usage
+~~~
+then
+~~~
+sudo journalctl --rotate
+~~~
+then clear cache
+~~~
+sudo journalctl --vacuum-time=2days
 ~~~
