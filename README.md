@@ -90,6 +90,15 @@ Now update the system and install Brave:
 sudo apt update && sudo apt install brave-browser
 ~~~
 
+# Install video player decoder if you have issue to play videos
+~~~
+sudo apt-get install ubuntu-restricted-extras
+~~~
+or
+~~~
+sudo apt-get install libavcodec58 libav-tools ffmpeg
+~~~
+
 # For clear Cache
 first check disk usage
 ~~~
