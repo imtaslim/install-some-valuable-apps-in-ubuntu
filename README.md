@@ -85,6 +85,30 @@ Now update the system and install Brave:
 sudo apt update && sudo apt install brave-browser
 ~~~
 
+# Install protonvpn
+1. Get the DEB setup package for the ProtonVPN repository
+
+Download the ProtonVPN DEB package
+https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
+
+2. Install the ProtonVPN repo
+
+Double-click downloaded DEB package to install the repo using your default package manager. 
+
+3. Update the apt-get package list
+
+Open Terminal and enter the command:
+~~~
+sudo apt-get update
+~~~
+
+4. Install the ProtonVPN Linux app
+
+Last step! Enter:
+~~~
+sudo apt-get install protonvpn
+~~~
+
 # Install video player decoder if you have issue to play videos
 ~~~
 sudo apt-get install ubuntu-restricted-extras
