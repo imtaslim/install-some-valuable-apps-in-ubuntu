@@ -33,11 +33,6 @@ sudo snap install code --classic
 sudo snap install postbird
 ~~~
 
-# Install tweak
-~~~
-sudo snap install postbird
-~~~
-
 # Install universe repository
 ~~~
 sudo add-apt-repository universe
@@ -48,7 +43,7 @@ sudo add-apt-repository universe
 sudo apt install gnome-tweak-tool
 ~~~
 
-# Install gnome
+# Install tweak
 ~~~
 gnome-tweaks
 ~~~
