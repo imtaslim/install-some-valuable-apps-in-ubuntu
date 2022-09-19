@@ -117,6 +117,10 @@ or
 ~~~
 sudo apt-get install libavcodec58 libav-tools ffmpeg
 ~~~
+then
+~~~
+sudo apt remove gstreamer1.0-vaapi
+~~~
 
 # For clear Cache
 first check disk usage
