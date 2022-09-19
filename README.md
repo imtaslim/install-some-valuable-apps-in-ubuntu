@@ -6,15 +6,7 @@ Install Skype, VS-Code, postbird, tweak, chrome, brave, and many more
 sudo snap install skype
 ~~~
 
-# If snap is showing error then restart it
-~~~
-sudo systemctl start snapd
-~~~
-then
-~~~
-sudo systemctl enable snapd
-~~~
-if it doesn't solve the error then uninstall snap
+# If snap is showing error then uninstall snap
 ~~~
 sudo apt autoremove --purge snapd
 ~~~
@@ -38,12 +30,12 @@ sudo snap install postbird
 sudo add-apt-repository universe
 ~~~
 
-# Install gnome-tool
+# Install gnome-tweaks
 ~~~
-sudo apt install gnome-tweak-tool
+sudo apt install gnome-tweaks
 ~~~
 
-# Install tweak
+# Open tweak
 ~~~
 gnome-tweaks
 ~~~
